@@ -60,7 +60,7 @@ export default async function MoviePage({ params }) {
           </p>
         </div>
       </div>
-      <div className="max-w-6xl mx-auto md:space-x-6">
+      <div className="max-w-6xl mx-auto md:space-x-6 overflow-auto">
         <table className="w-full  border-amber-600 border-2">
           <thead className="text-amber-500 font-bold">
             <tr>

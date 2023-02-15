@@ -16,7 +16,7 @@ export default function Casts({ casts }) {
                             placeholder="blur"
                             blurDataURL="/spinner.svg"
                             style={{
-                                maxWidth: "auto",
+                                maxWidth: "100%",
                                 height: "auto",
                                 margin:"10px auto"
                             }}
