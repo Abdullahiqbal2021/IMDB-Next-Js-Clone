@@ -17,14 +17,16 @@ export default function Card({ result }) {
           placeholder="blur"
           blurDataURL="/spinner.svg"
           style={{
-            maxWidth:"100%",
+            maxWidth: "100%",
             height: "auto",
           }}
         ></Image>
         <div className="line-clamp-2 text-md">
           <p>{result.overview}</p>
         </div>
-          <h2 className="truncate font-bold text-lg">{result.title}</h2>
+        <h2 className="truncate font-bold text-lg">
+          {result.title || result.original_title || ""}
+        </h2>
       </Link>
     </div>
   );
