@@ -1,6 +1,7 @@
 import Casts from "@/components/Casts";
 import Image from "next/image";
 import React from "react";
+// import ''
 
 const API_KEY = process.env.API_KEY;
 
@@ -27,6 +28,7 @@ export default async function MoviePage({ params }) {
     <div className="w-full">
       <div className="p-4 flex flex-col md:flex-row items-center content-center max-w-6xl mx-auto md:space-x-6">
         <Image
+          priority
           src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path || movie.poster_path
             }`}
           alt={`${movie.title} image is not available`}

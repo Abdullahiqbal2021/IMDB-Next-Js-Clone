@@ -13,7 +13,7 @@ export default function About() {
         <br />
         At Imdb clone, you will find a vast collection of movie information,
         reviews, and ratings. The platform is designed with a user-friendly
-        interface to make it easy for you to find the movie you're looking for,
+        interface to make it easy for you to find the movie you are looking for,
         or explore our curated collections and recommendations to discover new
         and exciting movies and TV shows.
         <br />
@@ -22,7 +22,7 @@ export default function About() {
         The platform is designed to be fast, responsive, and scalable, ensuring
         a smooth and seamless user experience.
         <br />
-        Whether you're a casual moviegoer or a film buff, Imdb Clone has
+        Whether you are a casual moviegoer or a film buff, Imdb Clone has
         something for everyone. I hope that this project showcases my passion
         for web development and my commitment to delivering high-quality and
         user-friendly applications.

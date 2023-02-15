@@ -4,7 +4,7 @@ import React from 'react'
 export default function Casts({ casts }) {
     return (
         <tbody>
-            {casts && casts.cast.map((each) => (
+            {casts.cast && casts.cast.map((each) => (
                 <tr key={each.id} className="border border-amber-500 border-opacity-40 my-2"  >
                     <td className="my-4 ">
                         <Image
