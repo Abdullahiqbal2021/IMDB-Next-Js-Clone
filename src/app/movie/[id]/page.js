@@ -28,7 +28,6 @@ export default async function MoviePage({ params }) {
     <div className="w-full">
       <div className="p-4 flex flex-col md:flex-row items-center content-center max-w-6xl mx-auto md:space-x-6">
         <Image
-          priority
           src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path || movie.poster_path
             }`}
           alt={`${movie.title} image is not available`}
@@ -41,6 +40,7 @@ export default async function MoviePage({ params }) {
             maxWidth: "100%",
             height: "100%",
           }}
+          priority
         ></Image>
         <div className="p-2">
           <h2 className="text-lg font-bold">{movie.title || movie.name}</h2>

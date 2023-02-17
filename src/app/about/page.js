@@ -5,7 +5,7 @@ export default function About() {
     <section className="max-w-6xl mx-auto p-4">
       <h1 className="text-amber-600 text-2xl font-bold my-3">About</h1>
       <p>
-        Welcome to <b className="text-amber-600"> IMdb Clone</b>, a movie database and review platform
+        Welcome to <b className="text-amber-600"> IMdb Clone</b> build with <b > Next Js 13</b>, a movie database and review platform
         built for movie lovers and enthusiasts. As a part of my portfolio
         project, I wanted to create a platform that would provide an all-in-one
         solution for movie-related information and connect movie lovers from all
